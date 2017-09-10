@@ -33,9 +33,6 @@ body {
   color: #555;
   text-align: justify;
 }
-.content {
-  padding: 0px 200px;
-}
 .navbar-default {
   background-color: #ffffff;
   border-color: #ffffff;
@@ -52,6 +49,9 @@ body {
  .nav>li {
   display: inline-block;
   }
+.content {
+  padding: 0px 200px;
+}
 }
 .navbar-toggle {
   float: none;
