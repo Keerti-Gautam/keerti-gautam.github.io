@@ -1,0 +1,61 @@
+/* Application Styles */
+@font-face {
+  font-family: "Keerti-Gautam-Header";
+  src: url("fonts/Pristina.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Keerti-Gautam-Text";
+  src: url("fonts/Adobe Garamond Pro Bold.ttf") format("truetype");
+}
+body {
+  padding-top: 0px;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.head-kg {
+  font-family: Keerti-Gautam-Header;
+  font-weight: 700;
+  font-size: 4em;
+  color: #424141;
+}
+.content-kg {
+  font-family: Keerti-Gautam-Text;
+  font-size: 1.5em;
+  color: #555;
+}
+.content-para {
+  font-family: Keerti-Gautam-Text;
+  font-size: 1.5em;
+  color: #555;
+  text-align: justify;
+}
+.content {
+  padding: 0px 200px;
+}
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+@media (min-width: 768px){
+ .navbar-nav {
+   float: none;
+   margin: 0;
+  } 
+ .navbar-nav>li {
+   float: none;
+  }
+ .nav>li {
+  display: inline-block;
+  }
+}
+.navbar-toggle {
+  float: none;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
