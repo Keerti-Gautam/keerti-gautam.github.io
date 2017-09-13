@@ -77,3 +77,8 @@ body {
     margin-bottom: 0;
     top: 0.25em;
 }
+
+.img-only {
+    width: 15em;
+    border-radius: 50%;
+}
