@@ -67,7 +67,9 @@ body {
         padding: 0px 170px;
     }
 }
-
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    margin-top: .25em;
+}
 .navbar-toggle {
     float: none;
     margin-right: 0;
