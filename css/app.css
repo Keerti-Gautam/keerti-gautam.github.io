@@ -1,63 +1,77 @@
 /* Application Styles */
+
 @font-face {
-  font-family: "Keerti-Gautam-Header";
-  src: url("fonts/Pristina.ttf") format("truetype");
+    font-family: "Keerti-Gautam-Header";
+    src: url("fonts/Pristina.ttf") format("truetype");
 }
+
 @font-face {
-  font-family: "Keerti-Gautam-Text";
-  src: url("fonts/Adobe Garamond Pro Bold.ttf") format("truetype");
+    font-family: "Keerti-Gautam-Text";
+    src: url("fonts/Adobe Garamond Pro Bold.ttf") format("truetype");
 }
+
 body {
-  padding-top: 0px;
+    padding-top: 0px;
 }
 
 .starter-template {
-  padding: 40px 15px;
-  text-align: center;
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.navbar {
+    position: sticky;
+    top: 0em;
 }
 
 .head-kg {
-  font-family: Keerti-Gautam-Header;
-  font-weight: 700;
-  font-size: 4em;
-  color: #424141;
-}
-.content-kg {
-  font-family: Keerti-Gautam-Text;
-  font-size: 1.5em;
-  color: #555;
-}
-.content-para {
-  font-family: Keerti-Gautam-Text;
-  font-size: 1.5em;
-  color: #555;
-  text-align: justify;
-}
-.navbar-default {
-  background-color: #ffffff;
-  border-color: #ffffff;
+    font-family: Keerti-Gautam-Header;
+    font-weight: 700;
+    font-size: 4em;
+    color: #424141;
 }
 
-@media (min-width: 768px){
- .navbar-nav {
-   float: none;
-   margin: 0;
-  } 
- .navbar-nav>li {
-   float: none;
-  }
- .nav>li {
-  display: inline-block;
-  }
+.content-kg {
+    font-family: Keerti-Gautam-Text;
+    font-size: 1.5em;
+    color: #555;
 }
-@media (min-width: 1100px){
+
+.content-para {
+    font-family: Keerti-Gautam-Text;
+    font-size: 1.5em;
+    color: #555;
+    text-align: justify;
+}
+
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: none;
+        margin: 0;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .nav>li {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 1100px) {
     .content {
-  padding: 0px 170px;
+        padding: 0px 170px;
+    }
 }
-}
+
 .navbar-toggle {
-  float: none;
-  margin-right: 0;
-  margin-top: 0;
-  margin-bottom: 0;
+    float: none;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    top: 0.25em;
 }
