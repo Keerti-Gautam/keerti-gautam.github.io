@@ -37,9 +37,10 @@ body {
 }
 
 .content-kg {
-    font-family: Keerti-Gautam-Text;
+    font-family: Keerti-Gautam-MoreText;
     font-size: 1.5em;
     color: #555;
+    font-weight: bolder;
 }
 
 .content-kg-head {
@@ -67,6 +68,15 @@ body {
     text-align: justify;
     font-weight: bold;
     margin: 30px 35px 0px 35px;
+}
+
+.content-para-quote-center {
+    font-family: Keerti-Gautam-MoreText;
+    font-size: 1.3em;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 35px 10px 35px;
 }
 
 .quote {
