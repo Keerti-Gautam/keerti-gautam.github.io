@@ -20,13 +20,14 @@ body {
 }
 
 .starter-template {
-    padding: 40px 15px;
+    padding: 20px 15px;
     text-align: center;
 }
 
 .navbar {
     position: sticky;
     top: 0em;
+    margin-bottom: 0;
 }
 
 .head-kg {
@@ -120,4 +121,8 @@ body {
 .img-only {
     width: 15em;
     border-radius: 50%;
+}
+
+.head-img {
+    margin-top: 20px;
 }
