@@ -41,14 +41,28 @@ body {
 .content-kg {
     font-family: Keerti-Gautam-MoreText;
     font-size: 1.5em;
-    color: #555;
+    color: #444;
     font-weight: bolder;
 }
 
 .content-kg-head {
     font-family: Keerti-Gautam-MoreText;
     font-size: 1.45em;
+    color: #444;
+}
+
+.indent-content {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.content-header {
+    font-family: Keerti-Gautam-MoreText;
+    font-size: 1.35em;
     color: #333;
+    text-align: left;
+    font-weight: bold;
+    padding-top: 20px;
 }
 
 .content-para {
