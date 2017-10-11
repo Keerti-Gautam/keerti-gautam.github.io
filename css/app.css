@@ -65,6 +65,10 @@ body {
     padding-top: 20px;
 }
 
+.indent-right {
+    float:right;
+}
+
 .content-para {
     font-family: Keerti-Gautam-MoreText;
     font-size: 1.3em;
