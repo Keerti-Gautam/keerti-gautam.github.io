@@ -76,6 +76,26 @@ body {
     text-align: justify;
 }
 
+.social-tabs {
+    font-family: Keerti-Gautam-MoreText;
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.social {
+    font-size: .6em;
+    color: #333; !important
+}
+
+.content-para-centre {
+    font-family: Keerti-Gautam-MoreText;
+    font-size: 1.3em;
+    color: #333;
+    text-align: center;
+}
+
 .navbar-default {
     background-color: #ffffff;
     border-color: #ffffff;
